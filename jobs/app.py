@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 def jobs():
-	render_template('index.html')
+	return render_template('index.html')
 
 
 
